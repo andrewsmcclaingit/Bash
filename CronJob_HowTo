@@ -1,0 +1,5 @@
+crontab -e
+nano
+44 10 * * * /scriptpath/delete_script.sh
+
+More information here: https://bit.ly/2Qv061W
