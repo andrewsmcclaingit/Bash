@@ -3,6 +3,7 @@
 filename1="hc1.txt"
 filename2="hc2.txt"
 string="test"
+
 if grep -q "$string" $filename1 || grep -q "$string" $filename2;
 #if grep -q "$string" $filename1 && grep -q "$string" $filename2;
 #if grep -q "$string" $filename;
